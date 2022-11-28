@@ -1,0 +1,22 @@
+.app__header{
+    background-color:#000;
+}
+.app__header-h1{
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 17px;
+    font-size: 40px;
+}
+.app_header-img img{
+    width: 80%;
+}
+.custom__buttom:hover{
+    cursor: pointer;
+    color: var(--color-golden);
+}
+.custom__buttom{
+    background: transparent;
+    color: var(--color-grey);
+}

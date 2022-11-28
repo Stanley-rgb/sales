@@ -1,0 +1,77 @@
+.app_aboutus{
+    position: relative;
+}
+.app_aboutus-overlay{
+    position: absolute;
+    inset: 0;
+}
+.app_aboutus-overlay img{
+    width: 391px;
+    height: 415px;
+    z-index: 0;
+}
+.app_aboutus-content{
+    width: 100%;
+    z-index: 2;
+}
+.app_aboutus-content_about{
+    color: var(--color-grey);
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: right;
+}
+.app_aboutus_content_knife{
+    margin: 2rem 4rem;
+}
+.app_aboutus_content_knife img{
+    height: 910px;
+}
+.app_aboutus-content_history{
+    color: var(--color-grey);
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+.app_aboutus-content_history p,
+.app_aboutus-content_history p{
+    margin: 2rem 0;
+    color: var(--color-grey);
+}
+@media screen and (max-width: 2000px) {
+    .app_aboutus_content_knife img{
+        height: 1110px;
+    }
+    .app_aboutus-content_history p,
+    .app_aboutus-content_history p{
+        margin: 0rem 0;
+        color: var(--color-grey);
+}
+}
+@media screen and (max-width: 900px) {
+    .app_aboutus-content{
+        flex-direction: column;
+    }
+    .app_aboutus_content_knife{
+        margin: 4rem 0;
+    }
+}
+@media screen and (max-width: 650px) {
+    .app_aboutus-overlay img{
+        width: 80%;
+        height: 320px;
+    }
+}
+.custom_button{
+    color: #fff;
+    border: none;
+    background-color: transparent;
+    margin-top: 10px;
+    align-items: center;
+    font-size: 20px;
+}
